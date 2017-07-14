@@ -1,0 +1,149 @@
+
+div nav.navbar {
+	background-color: transparent;
+	border: none;
+	color: none;
+	
+
+}
+div.content{
+	padding-top: 150px;
+	background-color: none;
+	background-color: transparent;
+	color: white;
+	font-size: 50px;
+}
+.col-sm-5{
+	padding: 0 auto;
+	padding-left: 100px;
+}
+div.backimage{
+
+	background-image: url("http://www.sitedeimagens.com/imagens/diversas-imagens-aleatorias-14.jpg"); 
+}
+div.content .btn,section.waiting .btn{
+	border:1px solid white;
+	border-radius: 300px;
+	color: white;
+}
+div.device-container img{
+	max-width: 100%;
+	height: 600px;
+	margin-top: 100px ;
+	border-radius: 50px;
+
+}
+section#download{
+	background-color: #fdcc52;
+	color: white;
+	padding: 100px 0;
+}
+section#download h2{
+
+ 
+	font-size: 50px;
+}
+
+div.badges a img{
+	
+	width: 30%;
+	height: 60px;
+	padding: 10px;
+}
+@media (max-width: 768px){
+	div.badges {
+		display: block;
+	}
+}
+section.waiting{
+	background-image: url("https://static.pexels.com/photos/221159/pexels-photo-221159.jpeg");
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	padding-top: 50px;
+}
+section.waiting h3{
+	font-size: 80px;
+	color: white;
+}
+section#features h4{
+	font-size: 50px;
+	padding-top: 50px;
+}
+section.features .col-md-4 img,.col-md-8{
+
+	padding-top: 60px;
+
+}
+
+section#contact{
+	text-align: center;
+	background-color: #fcbd20;
+	color: white;
+	padding: 40px;
+
+}
+section#contact ul.list-social li a{
+	display: block;
+	height: 80px;
+	width: 80px;
+	padding: 20px;
+
+	border-radius: 100%;
+	color: white;
+}
+section#contact ul li.social-twitter a{
+	background-color: #1da1f2;
+}
+section#contact h5{
+	font-size: 50px;
+}
+section#contact ul li.social-facebook a{
+	background-color: #3b5998;
+}
+section#contact ul li.social-google-plus a{
+	background-color: #dd4b39;
+}
+section#contact .fa-heart{
+color: #dd4b39;
+}
+section.features .col-md-6 i {
+  font-size: 80px;
+  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  section.features .device-container,
+  section.features .col-md-6 {
+    max-width: none;
+  }
+  footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
+
+
+
+
+
