@@ -119,6 +119,7 @@ section.features .col-md-6 i {
   section.features .col-md-6 {
     max-width: none;
   }
+}
   footer {
   background-color: #222222;
   padding: 25px 0;
